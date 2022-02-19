@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
 title: my-blog
-logo: logo.svg # You can add own logo.
+logo: logo.jpg # You can add own logo.
 description: minimal theme for Jekyll
 
 
