@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
 title: my-blog
-logo: logo.jpg # You can add own logo.
+logo: logo.svg # You can add own logo.
 description: minimal theme for Jekyll
 
 
@@ -11,27 +11,27 @@ author:
   name: Sashini Liyanage
   image: 01.jpg
   say-hello: Hello, I’m <strong>Sashini Liyanage</strong>
-  bio: Designs, talks, and writes about <strong>web</strong>, <strong>ethics</strong>, <strong>privacy</strong>, and dev. I share design tutorials, free resources and inspiration. Loves <a href="#">music</a> & riding his bicycle.
+  bio: Designs, talks, and writes about <strong>web</strong> and dev. I share small tips on computer engineering. Loves <a href="#">music</a> & films.
 
 
 #-------------------------------
 # Contact links
-twitter: https://twitter.com/ # Add your Twitter handle
-facebook: https://facebook.com/ # Add your Facebook handle
-dribbble: https://dribbble.com/ # Add your Dribbble handle
-instagram: https://instagram.com/ # Add your Instagram handle
-pinterest: https://pinterest.com/ # Add your Pinterest handle
+#twitter: https://twitter.com/ # Add your Twitter handle
+facebook: https://www.facebook.com/profile.php?id=100003157635904 # Add your Facebook handle
+#dribbble: https://dribbble.com/ # Add your Dribbble handle
+instagram: https://instagram.com/sashinuu  # Add your Instagram handle
+#pinterest: https://pinterest.com/ # Add your Pinterest handle
 
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: Sashini # add your shortname for Disqus Comment. For example mr-brown
 
 
 #-------------------------------
 # Instagram Feed
 instafeed: # To enable the instafeed, use the value true. To turn off use the value false.
-instagram-profile: artemsheludko_ # Add instagram username
+instagram-profile: sashinuu # Add instagram username
 
 
 #-------------------------------

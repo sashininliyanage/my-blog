@@ -1,0 +1,33 @@
+.animate, .article, .page__head,
+.hero__content, .post__head {
+  animation-duration: 0.7s;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
+}
+
+.blog-tags, .page__head, .article,
+.hero__content, .post__head {
+  animation-delay: 0.5s;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
