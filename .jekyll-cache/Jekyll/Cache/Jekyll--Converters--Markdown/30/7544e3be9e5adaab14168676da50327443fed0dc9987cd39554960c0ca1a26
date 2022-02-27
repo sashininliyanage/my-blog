@@ -1,8 +1,11 @@
-I"ò	
+I"P
 <section class="blog-tags animate">
   <h1>Tags in Blog</h1>
   <ul class="tags">
 <!--  cycles through tag list and creates header row of all tags used in site with accompanying per-tag counts...-->
+  
+    
+    <li><a href="/my-blog/tag/Agile-Methods" class="post__tags-tag">Agile-Methods <span>(1)</span></a></li>
   
     
     <li><a href="/my-blog/tag/Home" class="post__tags-tag">Home <span>(1)</span></a></li>
@@ -17,10 +20,23 @@
     <li><a href="/my-blog/tag/Resources" class="post__tags-tag">Resources <span>(1)</span></a></li>
   
     
+    <li><a href="/my-blog/tag/Software-Development" class="post__tags-tag">Software-Development <span>(1)</span></a></li>
+  
+    
     <li><a href="/my-blog/tag/Style" class="post__tags-tag">Style <span>(2)</span></a></li>
   
   </ul>
 <!--cycles through tag list and creates subheader for each tag name...-->
+  
+    
+  <h2 id="Agile-Methods">Agile-Methods</h2>
+<!--  lists all posts corresponding to specific tag...-->
+    
+    <div class="tag-list">
+        <span><a href="/my-blog//2022/02/22/agile-methodology/">Agile Methodology</a></span>
+        <small><span>| 22 Feb 2022</span></small>
+    </div>
+    
   
     
   <h2 id="Home">Home</h2>
@@ -59,6 +75,16 @@
     <div class="tag-list">
         <span><a href="/my-blog//2018/07/24/find-a-connection-with-the-reader/">Find a connection with the reader</a></span>
         <small><span>| 24 Jul 2018</span></small>
+    </div>
+    
+  
+    
+  <h2 id="Software-Development">Software-Development</h2>
+<!--  lists all posts corresponding to specific tag...-->
+    
+    <div class="tag-list">
+        <span><a href="/my-blog//2022/02/22/agile-methodology/">Agile Methodology</a></span>
+        <small><span>| 22 Feb 2022</span></small>
     </div>
     
   
