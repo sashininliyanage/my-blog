@@ -1,38 +1,38 @@
-I"Á
+I"i
 <section class="blog-tags animate">
   <h1>Tags in Blog</h1>
   <ul class="tags">
 <!--  cycles through tag list and creates header row of all tags used in site with accompanying per-tag counts...-->
   
     
-    <li><a href="/tag/Agile-Methods" class="post__tags-tag">Agile-Methods <span>(1)</span></a></li>
+    <li><a href="/my-blog/tag/Agile-Methods" class="post__tags-tag">Agile-Methods <span>(1)</span></a></li>
   
     
-    <li><a href="/tag/Data-Acquisition" class="post__tags-tag">Data-Acquisition <span>(1)</span></a></li>
+    <li><a href="/my-blog/tag/Data-Acquisition" class="post__tags-tag">Data-Acquisition <span>(1)</span></a></li>
   
     
-    <li><a href="/tag/Electronic" class="post__tags-tag">Electronic <span>(1)</span></a></li>
+    <li><a href="/my-blog/tag/Electronic" class="post__tags-tag">Electronic <span>(1)</span></a></li>
   
     
-    <li><a href="/tag/Home" class="post__tags-tag">Home <span>(1)</span></a></li>
+    <li><a href="/my-blog/tag/Home" class="post__tags-tag">Home <span>(1)</span></a></li>
   
     
-    <li><a href="/tag/Jekyll" class="post__tags-tag">Jekyll <span>(1)</span></a></li>
+    <li><a href="/my-blog/tag/Jekyll" class="post__tags-tag">Jekyll <span>(1)</span></a></li>
   
     
-    <li><a href="/tag/Life" class="post__tags-tag">Life <span>(1)</span></a></li>
+    <li><a href="/my-blog/tag/Life" class="post__tags-tag">Life <span>(1)</span></a></li>
   
     
-    <li><a href="/tag/Resources" class="post__tags-tag">Resources <span>(1)</span></a></li>
+    <li><a href="/my-blog/tag/Resources" class="post__tags-tag">Resources <span>(1)</span></a></li>
   
     
-    <li><a href="/tag/Shortnotes" class="post__tags-tag">Shortnotes <span>(1)</span></a></li>
+    <li><a href="/my-blog/tag/Shortnotes" class="post__tags-tag">Shortnotes <span>(1)</span></a></li>
   
     
-    <li><a href="/tag/Software-Development" class="post__tags-tag">Software-Development <span>(1)</span></a></li>
+    <li><a href="/my-blog/tag/Software-Development" class="post__tags-tag">Software-Development <span>(1)</span></a></li>
   
     
-    <li><a href="/tag/Style" class="post__tags-tag">Style <span>(2)</span></a></li>
+    <li><a href="/my-blog/tag/Style" class="post__tags-tag">Style <span>(2)</span></a></li>
   
   </ul>
 <!--cycles through tag list and creates subheader for each tag name...-->
@@ -42,7 +42,7 @@
 <!--  lists all posts corresponding to specific tag...-->
     
     <div class="tag-list">
-        <span><a href="//2022/02/22/agile-methodology/">Agile Methodology</a></span>
+        <span><a href="/my-blog//2022/02/22/agile-methodology/">Agile Methodology</a></span>
         <small><span>| 22 Feb 2022</span></small>
     </div>
     
@@ -52,7 +52,7 @@
 <!--  lists all posts corresponding to specific tag...-->
     
     <div class="tag-list">
-        <span><a href="//2022/03/04/pc1-6221-daq-card/">Data acquisition with PCI-6221 DAQ card</a></span>
+        <span><a href="/my-blog//2022/03/04/pc1-6221-daq-card/">Data acquisition with PCI-6221 DAQ card</a></span>
         <small><span>| 04 Mar 2022</span></small>
     </div>
     
@@ -62,7 +62,7 @@
 <!--  lists all posts corresponding to specific tag...-->
     
     <div class="tag-list">
-        <span><a href="//2022/03/04/pc1-6221-daq-card/">Data acquisition with PCI-6221 DAQ card</a></span>
+        <span><a href="/my-blog//2022/03/04/pc1-6221-daq-card/">Data acquisition with PCI-6221 DAQ card</a></span>
         <small><span>| 04 Mar 2022</span></small>
     </div>
     
@@ -72,7 +72,7 @@
 <!--  lists all posts corresponding to specific tag...-->
     
     <div class="tag-list">
-        <span><a href="//2018/07/05/moving-to-a-new-place/">Moving to a new place</a></span>
+        <span><a href="/my-blog//2018/07/05/moving-to-a-new-place/">Moving to a new place</a></span>
         <small><span>| 05 Jul 2018</span></small>
     </div>
     
@@ -82,7 +82,7 @@
 <!--  lists all posts corresponding to specific tag...-->
     
     <div class="tag-list">
-        <span><a href="//2018/05/29/welcome-to-jekyll/">Welcome to Jekyll!</a></span>
+        <span><a href="/my-blog//2018/05/29/welcome-to-jekyll/">Welcome to Jekyll!</a></span>
         <small><span>| 29 May 2018</span></small>
     </div>
     
@@ -92,7 +92,7 @@
 <!--  lists all posts corresponding to specific tag...-->
     
     <div class="tag-list">
-        <span><a href="//2018/07/17/time-to-givegifts-to-everyone/">Time to give gifts to everyone</a></span>
+        <span><a href="/my-blog//2018/07/17/time-to-givegifts-to-everyone/">Time to give gifts to everyone</a></span>
         <small><span>| 17 Jul 2018</span></small>
     </div>
     
@@ -102,7 +102,7 @@
 <!--  lists all posts corresponding to specific tag...-->
     
     <div class="tag-list">
-        <span><a href="//2018/07/24/find-a-connection-with-the-reader/">Find a connection with the reader</a></span>
+        <span><a href="/my-blog//2018/07/24/find-a-connection-with-the-reader/">Find a connection with the reader</a></span>
         <small><span>| 24 Jul 2018</span></small>
     </div>
     
@@ -112,7 +112,7 @@
 <!--  lists all posts corresponding to specific tag...-->
     
     <div class="tag-list">
-        <span><a href="//2022/03/04/pc1-6221-daq-card/">Data acquisition with PCI-6221 DAQ card</a></span>
+        <span><a href="/my-blog//2022/03/04/pc1-6221-daq-card/">Data acquisition with PCI-6221 DAQ card</a></span>
         <small><span>| 04 Mar 2022</span></small>
     </div>
     
@@ -122,7 +122,7 @@
 <!--  lists all posts corresponding to specific tag...-->
     
     <div class="tag-list">
-        <span><a href="//2022/02/22/agile-methodology/">Agile Methodology</a></span>
+        <span><a href="/my-blog//2022/02/22/agile-methodology/">Agile Methodology</a></span>
         <small><span>| 22 Feb 2022</span></small>
     </div>
     
@@ -132,12 +132,12 @@
 <!--  lists all posts corresponding to specific tag...-->
     
     <div class="tag-list">
-        <span><a href="//2018/07/19/why-a-brand-is-often-important/">Why a brand is often important</a></span>
+        <span><a href="/my-blog//2018/07/19/why-a-brand-is-often-important/">Why a brand is often important</a></span>
         <small><span>| 19 Jul 2018</span></small>
     </div>
     
     <div class="tag-list">
-        <span><a href="//2018/06/25/start-the-day-with-the-right-habit/">Start the day with the right habit</a></span>
+        <span><a href="/my-blog//2018/06/25/start-the-day-with-the-right-habit/">Start the day with the right habit</a></span>
         <small><span>| 25 Jun 2018</span></small>
     </div>
     
