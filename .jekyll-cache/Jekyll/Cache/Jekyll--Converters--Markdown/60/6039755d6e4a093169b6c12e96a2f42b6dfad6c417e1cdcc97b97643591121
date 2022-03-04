@@ -1,0 +1,31 @@
+I"	<h2 id="what-is-data-acquisition">What is Data Acquisition?</h2>
+
+<p>Data acquisition, which is abbreviated to DAQ is a process of obtaining data that measure real-world physical phenomena into a digital form to be processed by a computer. This data could be either digital or analog. Digital inputs get the data from state changes in the circuit. For example in volatage measurement it could be presence (+5V) and absence (0V) of the voltage. The analogue readings could be variables that continuously vary such as temperature, speed, pressure, temperature or sounds that can be measured in terms of a voltage or a current.</p>
+
+<h2 id="daq-card--pci-6221">DAQ card : PCI-6221</h2>
+
+<p><img src="/images/2022-03-04-pc1-6221-daq-card/daq.jpg" alt="" /></p>
+
+<p>PCI-6621 is a multifunction I/O device from the M Series by National Instruments. It is an ideal choice for Data Acquisition. The PCI-6221 DAQ Card can be used with an NI-DAQ mx driver and configuration utility to simplify the configuration and measurement process. There are two variants of PCI-6221 DAQ Cards:</p>
+
+<ol>
+  <li><a href="https://www.ni.com/pdf/manuals/375201c.pdf">NI6221 37-pins</a></li>
+  <li><a href="https://www.ni.com/pdf/manuals/375303c.pdf">NI6221 68-pins</a></li>
+</ol>
+
+<p>Pinout diagram of PCI-6621 37-pins:
+<img src="/images/2022-03-04-pc1-6221-daq-card/37-pin.PNG" alt="" /></p>
+
+<p>Pinout diagram of PCI-6621 68-pins:
+<img src="/images/2022-03-04-pc1-6221-daq-card/68-pin.PNG" alt="" /></p>
+
+<p>AO - analog output
+AI - analog input</p>
+
+<p>The DAQ card is connected to the Computer via Peripheral Component Interconnect (PCI) interface, which is the most common way to attach add-on controller cards and other devices to a computer motherboard. The external circuit can be conected to the DAQ card using CB-68LP. CB-68LP features 68 screw terminals for easy connection of field I/O signals to 68-pin NI data acquisition devices. It includes one 68-pin male SCSI connector for direct connection to 68-pin cables.
+<img src="/images/2022-03-04-pc1-6221-daq-card/connector.jpg" alt="" /></p>
+
+<p>The <a href="https://www.ni.com/en-us/shop/labview.html">LabVIEW</a> by National Instruments can be used as the design platform to visualize the measurements.
+<img src="/images/2022-03-04-pc1-6221-daq-card/labview.jpg" alt="" /></p>
+
+:ET

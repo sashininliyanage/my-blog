@@ -1,0 +1,48 @@
+---
+layout: post
+title:  Data acquisition with PCI-6221 DAQ card
+date:   2022-03-04 08:58:35 +0530
+image:  2022-03-04-pc1-6221-daq-card/daq.jpg
+tags:   Electronic Data-Acquisition Shortnotes
+---
+
+## What is Data Acquisition?
+
+Data acquisition, which is abbreviated to DAQ is a process of obtaining data that measure real-world physical phenomena into a digital form to be processed by a computer. This data could be either digital or analog. Digital inputs get the data from state changes in the circuit. For example in volatage measurement it could be presence (+5V) and absence (0V) of the voltage. The analogue readings could be variables that continuously vary such as temperature, speed, pressure, temperature or sounds that can be measured in terms of a voltage or a current.
+
+## DAQ card : PCI-6221
+
+![]({{ site.baseurl }}/images/2022-03-04-pc1-6221-daq-card/daq.jpg)
+
+PCI-6621 is a multifunction I/O device from the M Series by National Instruments. It is an ideal choice for Data Acquisition. The PCI-6221 DAQ Card can be used with an NI-DAQ mx driver and configuration utility to simplify the configuration and measurement process. There are two variants of PCI-6221 DAQ Cards:
+
+1. [NI6221 37-pins][NI6221-37-manual]
+2. [NI6221 68-pins][NI6221-manual]
+
+Pinout diagram of PCI-6621 37-pins:
+![]({{ site.baseurl }}/images/2022-03-04-pc1-6221-daq-card/37-pin.PNG)
+
+Pinout diagram of PCI-6621 68-pins:
+![]({{ site.baseurl }}/images/2022-03-04-pc1-6221-daq-card/68-pin.PNG)
+
+- AO.x - analog output
+- AI.x - analog input
+- P0.x - digital IO
+- AI GND - analog input ground
+- AO GND - analog output ground
+- DGND - digital IO ground
+
+All the grounds including analog input, analog output, and digital I/O are tied together to the common ground. This connection occurs after the ADC references the appropriate ground for each respective task type, so the ground line for your incoming signal connections should still be tied to the related ground or you may experience increased noise.
+
+The DAQ card is connected to the Computer via Peripheral Component Interconnect (PCI) interface, which is the most common way to attach add-on controller cards and other devices to a computer motherboard. The external circuit can be conected to the DAQ card using CB-68LP. CB-68LP features 68 screw terminals for easy connection of field I/O signals to 68-pin NI data acquisition devices. It includes one 68-pin male SCSI connector for direct connection to 68-pin cables.
+![]({{ site.baseurl }}/images/2022-03-04-pc1-6221-daq-card/connector.jpg)
+
+The [LabVIEW][labview] by National Instruments can be used as the design platform to visualize the measurements.
+![]({{ site.baseurl }}/images/2022-03-04-pc1-6221-daq-card/labview.png)
+
+
+
+
+[NI6221-manual]: https://www.ni.com/pdf/manuals/375303c.pdf
+[NI6221-37-manual]:https://www.ni.com/pdf/manuals/375201c.pdf
+[labview]: https://www.ni.com/en-us/shop/labview.html
